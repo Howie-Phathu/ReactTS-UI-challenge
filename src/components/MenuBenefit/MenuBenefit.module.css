@@ -1,0 +1,17 @@
+.menu-benefit {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1b1b1b;
+  color: white;
+  padding: 40px 20px;
+}
+
+.benefit {
+  text-align: center;
+  max-width: 200px;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,67 @@
+/* components/Footer.css */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+  border-top: 1px solid #333;
+  margin-top: 40px;
+}
+
+.footer-left {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-left img {
+  max-width: 200px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.footer-left p {
+  font-size: 24px;
+  color: white;
+}
+
+.footer-middle {
+  flex: 1;
+  padding: 0 40px;
+}
+
+.footer-middle h4 {
+  color: #ff6b35;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.benefit-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.benefit-item span {
+  color: #ff6b35;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.footer-right {
+  flex: 1;
+}
+
+.footer-right h4 {
+  color: #ff6b35;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-right li {
+  margin-bottom: 10px;
+  color: #ccc;
+}
