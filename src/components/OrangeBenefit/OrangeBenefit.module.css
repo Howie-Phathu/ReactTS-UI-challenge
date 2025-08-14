@@ -1,0 +1,57 @@
+.orange-benefit {
+  padding: 50px 20px;
+  color: white;
+}
+
+.orange-benefit-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.orange-benefit-text {
+  flex: 1;
+}
+
+.orange-benefit-text h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.orange-benefit-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 0 25px 0;
+}
+
+.orange-benefit-image {
+  flex: 1;
+}
+
+.orange-benefit-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.btn-learn-more {
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.btn-learn-more:hover {
+  background-color: #ffd699;
+  color: #333;
+}
