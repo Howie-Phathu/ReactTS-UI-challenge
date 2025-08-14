@@ -1,6 +1,5 @@
-import React from 'react'
+
 import styles from './Text.module.css'
-import assests from '../../assets/pic_three.jpg'
 
 export const Text = () => {
   return (
